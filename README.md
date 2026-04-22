@@ -91,7 +91,7 @@ DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=campuscart
 DB_USER=postgres
-DB_PASSWORD=your_password
+DB_PASSWORD=sajanamity@123
 JWT_SECRET=your_secret_key
 ```
 
