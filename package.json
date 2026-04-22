@@ -1,0 +1,12 @@
+{
+  "name": "campuscart",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix vendor-dashboard",
+    "dev": "concurrently --names \"BACKEND,VENDOR\" --prefix-colors \"blue,green\" \"npm run dev --prefix backend\" \"npm run dev --prefix vendor-dashboard\"",
+    "start": "concurrently --names \"BACKEND,VENDOR\" --prefix-colors \"blue,green\" \"npm start --prefix backend\" \"npm run dev --prefix vendor-dashboard\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
